@@ -16,9 +16,7 @@ local mapSecret(obj) =
 // Function that defines environment variables per namespace
 local getMapSecret(namespace) = mapSecret(
   {
-    'app-prod-14': {
-      NOTHING: 'nothing',
-    },
+    'app-prod-14': {},
   }[namespace]
 );
 
