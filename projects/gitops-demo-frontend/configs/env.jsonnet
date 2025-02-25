@@ -9,7 +9,7 @@ local mapEnv(obj) =
 local getMapEnv(namespace) = mapEnv(
   {
     'app-prod-14': {
-      NEXT_PUBLIC_API_URL: 'https://api-14.iamgraph.live',
+      NEXT_PUBLIC_API_URL: 'https://api-group-14.iamgraph.live',
     },
   }[namespace]
 );
