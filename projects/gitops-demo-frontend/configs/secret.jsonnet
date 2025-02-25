@@ -17,6 +17,7 @@ local mapSecret(obj) =
 local getMapSecret(namespace) = mapSecret(
   {
     'app-prod-14': {
+      NOTHING: 'nothing',
     },
   }[namespace]
 );

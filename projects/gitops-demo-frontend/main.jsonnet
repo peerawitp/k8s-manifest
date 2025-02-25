@@ -116,7 +116,7 @@ function(
                 {
                   path: '/',
                   pathType: 'Prefix',
-                  frontend: {
+                  backend: {
                     service: {
                       name: appName,
                       port: {
